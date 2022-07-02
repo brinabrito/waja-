@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.98.0">
+  <title>Cat Care</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/product/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Arima:wght@200;300&family=Pacifico&family=Raleway:wght@200;300;600;700;800&display=swap"
+    rel="stylesheet">
+
+
+
+
+
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <style>
+    body {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 300;
+      color: #1c1b20;
+    }
+
+    .overlay {
+
+
+      color: #E66D53;
+
+    }
+
+    h1 {
+      font-family: 'Pacifico', cursive;
+      color: #1c1b20;
+
+    }
+
+    h2 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      font-size: 40px;
+      color: #E66D53
+    }
+
+    h3 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+    }
+
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .b-example-divider {
+      height: 3rem;
+      background-color: rgba(0, 0, 0, .1);
+      border: solid rgba(0, 0, 0, .15);
+      border-width: 1px 0;
+      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
+
+    .b-example-vr {
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 100vh;
+    }
+
+    .bi {
+      vertical-align: -.125em;
+      fill: currentColor;
+    }
+
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="site-header sticky-top py-1">
+    <nav class="container d-flex flex-column flex-md-row justify-content-between">
+      <a class="py-2" href="#" aria-label="Product">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" fill="none" stroke="currentColor"
+          stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img"
+          viewBox="0 0 24 24">
+          <title>Cat Care</title>
+          <circle cx="12" cy="12" r="10" />
+          <path
+            d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
+        </svg>
+      </a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Cuidados</a>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="container-fluid g-0">
+
+      <div id="probandoCarrusel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/portada.jpg" class="d-block w-100" alt="…" />
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1 class>Cat Care</h1>
+                <p>Un espacio sobre el cuidado de tus gatos.</p>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="carousel-item">
+            <img src="img/portada2.jpg" class="d-block w-100" alt="..." />
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Cat Care</h1>
+                <p>Un espacio sobre el cuidado de tus gatos.</p>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#probandoCarrusel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#probandoCarrusel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+    </div>
+
+    <main class="container">
+      <div class="row pt-3 pb-5">
+        <h3 class="text-center my-5">Cuidados de un gato</h3>
+        <div class="row">
+          <div class="col-sm-4 text-center">
+            <img src="img/vacuna.png" class="rounded-circle w-75 mb-3" />
+            <h4 class="fs-5">Veterinario</h4>
+          </div>
+          <div class="col-sm-4 text-center">
+            <img src="img/comida.png" class="rounded-circle w-75 mb-3" />
+            <h4 class="fs-5">Comida</h4>
+          </div>
+          <div class="col-sm-4 text-center">
+            <img src="img/cepillo.png" class="rounded-circle w-75 mb-3" />
+            <h4 class="fs-5">Higiene</h4>
+          </div>
+        </div>
+        <br />
+
+
+
+        <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+          <div class="my-3 py-3">
+            <h2 class>Sobrepeso</h2>
+            <p class="lead">Los gatos obesos pueden ser muy lindos, pero es uno de los principales problemas de los
+              felinos. Está asociado con la alimentación, y su desbalance puede generar una condición inflamatoria que a
+              su vez genere enfermedades secundarias,como problemas osteoarticulares o renales. </p>
+          </div>
+          <img src="img/gato1.jpeg" div class="bg-light shadow-sm mx-auto"
+            style=" height: 300px; border-radius: 21px 21px 0 0;">
+        </div>
+      </div>
+
+
+      <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <h2 class>Visita médica</h2>
+          <p class="lead">Contrario de lo que se cree, los gatos no deben ser llevados al veterinario únicamente cuando
+            se enferman. Los mininos necesitan de vacunas anuales, además de revisión cada 6 meses, desparasitación y
+            esterilización.</p>
+        </div>
+        <img src="img/gato2.jpg" div class="bg-light shadow-sm mx-auto"
+          style=" height: 300px; border-radius: 21px 21px 0 0;">
+      </div>
+      </div>
+
+
+
+      <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <h2 class>Cepillado</h2>
+          <p class="lead">Es verdad que los gatos son animales higiénicos que se lavan solos. Sin embargo, eso o
+            significa que no debamos cepillarlos frecuentemente para eliminar el pelo muerto y evitar la formación de
+            bolas de pelo.</p>
+          <img src="img/gato3.jpg" div class="bg-dark shadow-sm mx-auto"
+            style=" height: 300px; border-radius: 21px 21px 0 0;">
+        </div>
+      </div>
+
+      </div>
+
+      <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class>Actividad física</h2>
+          <p class="lead">Los gatos son activos por naturaleza, y mantener una actividad física diaria es parte del
+            cuidado esencial. Tener rascadores y juguetes alrededor puede además disminuir su estrés.</p>
+          <img src="img/gato4.jpg" div class="bg-dark shadow-sm mx-auto"
+            style=" height: 300px; border-radius: 21px 21px 0 0;">
+        </div>
+      </div>
+
+      </div>
+      </div>
+
+
+      <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <h2 class>Atención</h2>
+          <p class="lead">Es importante estar atentos ante cualquier cambio de comportamiento, si deja de comer, si no
+            socializa como siempre, si no se acicala. Un simple mal aliento puede significar enfermedades, de manera que
+            conocer a tu gato es esencial y saber cuándo acudir al veterinario.</p>
+          <img src="img/gato5.png" div class="bg-dark shadow-sm mx-auto"
+            style=" height: 300px; border-radius: 21px 21px 0 0;">
+        </div>
+      </div>
+
+      </div>
+
+      <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class>Caja de arena</h2>
+          <p class="lead">Hay diversos tipos de arena, por eso es importante identificar qué tipo de arena y arenero le
+            gusta a tu gato. Al igual que mantenerlo limpio y ordenado.</p>
+          <img src="img/gato6.jpg" div class="bg-dark shadow-sm mx-auto"
+            style=" height: 300px; border-radius: 21px 21px 0 0;">
+        </div>
+      </div>
+
+      </div>
+      </div>
+
+
+      <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <h2 class>Hidratación</h2>
+          <p class="lead">Nunca se debe dejar al felino con su bebedero vacío o con agua sucia, ya que una
+            deshidratación del 10% puede traer graves consecuencias.</p>
+
+          <img src="img/gato7.jpg" div class="bg-dark shadow-sm mx-auto"
+            style=" height: 300px; border-radius: 21px 21px 0 0;">
+        </div>
+
+      </div>
+
+      </div>
+      <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class>Piel</h2>
+          <p class="lead">La piel de un gato debe ser de color rosa o negro según los pigmentos naturales, además su
+            pelaje debe ser espeso y sin protuberancias. Se debe estar alerta en caso de costras, enrojecimientos o
+            casos parecidos a la caspa.</p>
+          <img src="img/gato8.jpg" div class="bg-dark shadow-sm mx-auto"
+            style=" height: 300px; border-radius: 21px 21px 0 0;">
+        </div>
+      </div>
+
+      </div>
+      </div>
+    </main>
+
+    <footer class="container py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img"
+            viewBox="0 0 24 24">
+            <title>Product</title>
+            <circle cx="12" cy="12" r="10" />
+            <path
+              d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
+          </svg>
+          <small class="d-block mb-3 text-muted">&copy; 2022</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Contacto</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#"></a></li>
+            <li><a class="link-secondary" href="#">Correo</a></li>
+            <li><a class="link-secondary" href="#">Redes sociales</a></li>
+
+
+
+
+        </div>
+    </footer>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
